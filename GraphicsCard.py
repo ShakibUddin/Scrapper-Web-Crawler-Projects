@@ -19,7 +19,7 @@ def getData(url):
 
         csv_writer.writerow([product_name,description_for_one_product,product_price])
 
-csv_file = open('Graphics_Crad.csv','w',encoding='utf-8')
+csv_file = open('Graphics_Crad.csv','w',newline='',encoding='utf-8')
 csv_writer = csv.writer(csv_file)
 csv_writer.writerow(['Name','Description','Price'])
 
